@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SuppressOutputAssembly>true</SuppressOutputAssembly>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="GlobalUsings.cs" Pack="true" PackagePath="contentFiles\any\any" />
+  </ItemGroup>
+
+</Project>
